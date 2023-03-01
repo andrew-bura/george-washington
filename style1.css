@@ -1,0 +1,186 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+  background-color: gray;
+}
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.logo1 {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.logo1:hover{
+  color: #f9004d;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+nav ul li a:hover {
+  color: #f9004d;
+  transition: 0.4s;
+  font-size: 20px;
+}
+.BIBLIOGRAFIE {
+  width: 100%;
+  padding: 100px 0px;
+}
+.BIBLIOGRAFIE img {
+  height: auto;
+  width: 430px;
+}
+.BIBLIOGRAFIE-text {
+  width: 550px;
+}
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+p {
+  color: white;
+}
+#B1 {
+  color: aliceblue;
+}
+.BIBLIOGRAFIE-text h2 {
+  color: white;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.BIBLIOGRAFIE-text h5 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+.BIBLIOGRAFIE-text p {
+  color: #fcfc;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+.title {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.card {
+  width: 640px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-perspective: 1200px;
+  perspective: 1200px;
+  transition: 1s;
+}
+.outside,
+.inside {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+}
+.inside {
+  left: 50.1%;
+  background: linear-gradient(to right, #f9004d 30%);
+}
+.outside {
+  
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  z-index: 1;
+  transform-origin: left;
+  transition: 2s;
+  font-size: larges;
+}
+.front .back {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
+
+}
+.front {
+  
+}
+.back {
+  transform: rotateY(180deg);
+  background: linear-gradient(to left, white 30%);
+}
+.outside p {
+  font-size: 23px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  text-align: center;
+  letter-spacing: 6px;
+  
+}
+.card:hover {
+  transform: rotate(-5deg);
+}
+.card:hover .outside {
+  transform: rotateY(-130deg);
+}
+.card{
+    height: 300px;
+    margin-right: 50px;
+}
+.title1{
+    height: 50px;
+    margin-left: 1100px;
+    margin-bottom: 200px;
+}
+.img1{
+    width: 500px;
+    height: 500px;
+    margin-right: 600px;
+}
+.title1{
+    height: 40px;
+    margin-left: 530px;
+} 
+.paragraph1{
+  color: #000;
+}
